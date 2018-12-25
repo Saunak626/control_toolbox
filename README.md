@@ -19,10 +19,8 @@ For consistency with our other repos, we will compile the control_toolbox with c
 If you are on the OSU Underwater Robotics Team, then clone this repo to your Ubuntu environment in the same manner as for our other repos:
 
 ```
-mkdir -p ~/osu-uwrt/control_toolbox/src
-cd ~/osu-uwrt/control_tolbox/src
-catkin_init_workspace
-cd ..
+mkdir -p ~/osu-uwrt/control_toolbox/
+cd ~/osu-uwrt/control_tolbox/
 git clone https://github.com/osu-uwrt/control_toolbox.git src
 catkin_make_isolated
 ```
