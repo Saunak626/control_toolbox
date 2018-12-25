@@ -27,8 +27,8 @@ git clone https://github.com/osu-uwrt/control_toolbox.git src
 catkin_make_isolated
 ```
 
-## Editing the .bashrc
-To make the main repo (riptide_software) work with the control_toolbox, you need to edit the .bashrc file on your computer:
+## Chaining Workspaces
+To chain the main repo (riptide_software) with the control_toolbox, you need to edit the .bashrc file on your computer:
 
 Enter the ~/.bashrc file: 
 ```
