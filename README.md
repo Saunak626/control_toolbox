@@ -42,4 +42,5 @@ add the following line:
 
 ```source ~/osu-uwrt/riptide_software/devel/setup.bash
 ```
+
 To exit and save your changes, press CTRL-X, type "y", and press ENTER. These changes will now take effect in any NEW terminal you open.
