@@ -30,12 +30,16 @@ catkin_make_isolated
 To make the main repo (riptide_software) work with the control_toolbox, you need to edit the .bashrc file on your computer:
 
 Enter the ~/.bashrc file:
-```nano ~/.bashrc```
+
+```nano ~/.bashrc
+```
 
 Scroll down to the bottom. Directly above the line
+
 ```source ~/osu-uwrt/riptide_software/devel/setup.bash
 ```
 add the following line:
+
 ```source ~/osu-uwrt/riptide_software/devel/setup.bash
 ```
 To exit and save your changes, press CTRL-X, type "y", and press ENTER. These changes will now take effect in any NEW terminal you open.
