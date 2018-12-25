@@ -18,22 +18,24 @@ For consistency with our other repos, we will compile the control_toolbox with c
 
 If you are on the OSU Underwater Robotics Team, then clone this repo to your Ubuntu environment in the same manner as for our other repos:
 
-'''mkdir -p ~/osu-uwrt/control_toolbox/src
+```mkdir -p ~/osu-uwrt/control_toolbox/src
 cd ~/osu-uwrt/control_tolbox/src
 catkin_init_workspace
 cd ..
 git clone https://github.com/osu-uwrt/control_toolbox.git src
 catkin_make_isolated
-'''
+```
 
 ## Editing the .bashrc
 To make the main repo (riptide_software) work with the control_toolbox, you need to edit the .bashrc file on your computer:
 
 Enter the ~/.bashrc file:
-'''nano ~/.bashrc'''
+```nano ~/.bashrc```
 
 Scroll down to the bottom. Directly above the line
-'''source ~/osu-uwrt/riptide_software/devel/setup.bash'''
+```source ~/osu-uwrt/riptide_software/devel/setup.bash
+```
 add the following line:
-'''source ~/osu-uwrt/riptide_software/devel/setup.bash'''
+```source ~/osu-uwrt/riptide_software/devel/setup.bash
+```
 To exit and save your changes, press CTRL-X, type "y", and press ENTER. These changes will now take effect in any NEW terminal you open.
