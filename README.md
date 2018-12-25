@@ -28,7 +28,7 @@ catkin_make_isolated
 ```
 
 ## Chaining Workspaces
-To chain the main repo (riptide_software) with the control_toolbox, you need to edit the .bashrc file on your computer:
+To chain the main repo [riptide_software](https://github.com/osu-uwrt/riptide_software.git) with the control_toolbox, you need to edit the .bashrc file on your computer:
 
 Enter the ~/.bashrc file: 
 ```
